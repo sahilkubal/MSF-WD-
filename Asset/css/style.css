@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* --------------------------------------------- Common Styles --------------------------------------------- */
+
+.head-color{
+    background-color: rgba(161, 65, 0, 0.726);
+    padding-bottom: 15px;
+    margin-top: 15px
+}
+
+.bg-color{
+    background-color: rgba(206, 108, 28, 0.596);
+    padding: 15px 0px 30px 0px;
+}
+
+/* Menus */
+
+.menu{
+    height: 45px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: rgb(255, 120, 9);
+    border-radius: 35px;
+    padding-top: 12px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.menu a[active]{
+    font-size: 18px;
+    color: rgb(68, 27, 0);
+    font-weight: 550;
+}
+
+/* Heading and Paragraph */
+
+.shadow{
+    margin-top: 20px;
+    height: 350px;
+    position: relative;
+    left: 10px;
+}
+
+.shadow button{
+    height: 40px;
+    width: 120px;
+    position: relative;
+    top: 50px;
+    left: 170px;
+    background-color: rgb(255, 120, 9);
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.shadow h1{
+    color: rgb(168, 76, 0);
+    font-weight: 500;
+    word-spacing: normal;
+    padding-top: 60px;
+    padding-left: 50px;
+    line-height: 45px;
+}
+
+.shadow p{
+    width: 450px;
+    color: rgb(48, 46, 43); 
+    text-indent: 45px;
+    padding: 18px 10px 0px 5px;
+    text-align: justify;
+    word-spacing: 3px;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+.para h1{
+    margin-top: 20px; 
+    color: rgb(168, 76, 0); 
+    font-weight: 500;
+    font-size: 38px;
+    text-align: center;
+}
+
+.para h3{
+    margin-top: 15px; 
+    color: rgb(168, 76, 0); 
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 190px;
+    background-color: rgb(75, 58, 49);
+}
+
+.icons a .rotate{
+    transition-property: transform;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+}
+
+.icons a .rotate:hover{
+    transform: scale(1.1);
+}
+
+.links{
+    clear: left;
+    font-size: 13px;
+    padding-top: 14px;
+    color: #fff;
+    padding-left: 36%;
+}
+
+.gp1{
+    display: flex;
+    float: left;
+    padding-left: 39px;
+}
+
+.gp2{
+    clear: left;
+    display: flex;
+    padding-top: 8px;
+    padding-left: 30px;
+}
+
+.links a{
+    color: rgb(184, 184, 184);   
+}
+
+.links a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.footer p{
+    clear: left;
+    font-size: 12px;
+    color: rgb(175, 175, 175);
+    padding-top: 8px;
+    letter-spacing: 0.5px;
+    padding-left: 36%;
+}
+
+
+/* Hovring Items */
+
+.item{
+    margin-top: 15px;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+/* ---------------------------------------------- Service Page ---------------------------------------------- */
+
+.dishes{
+    margin-top: 0px;
+    background-color: rgba(197, 99, 18, 0.596);
+    padding-bottom: 15px;
+}
+
+.dishes h1{
+    color: rgb(189, 85, 0);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.dishes p{
+    padding: 5px 200px 15px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.points{
+    background-color: rgba(36, 30, 26, 0.726);
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.points h1{
+    width: 300px;
+    float: left;
+    display: flex;
+    margin-left: 160px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(248, 152, 73);
+    padding-top: 25px;
+    font-weight: 550;
+}
+
+.points h3{
+    width: 300px;
+    float: left;
+    clear: left;
+    display: flex;
+    margin-left: 210px;
+    font-size: 15px;
+    color: rgb(248, 152, 73);
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+.points div img{
+    clear: left;
+    margin-left: 29px;
+    margin-top: 20px;
+}
+
+.points p{
+    color: rgb(184, 184, 184);
+    padding-top: 10px;
+    text-align: justify;
+    margin-left: 160px;
+    clear: left;
+    font-size: 12px;
+}
+
+.points button{
+    width: 100px;
+    height: 25px;
+    clear: left;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(230, 105, 3);
+    margin-top: 10px;
+    margin-left: 260px;
+}
+
+.points1{
+    background-color: rgba(197, 99, 18, 0.596);
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.points1 div img{
+    float: left;
+    display: flex;
+    margin-left: 160px;
+    margin-right: 50px;
+}
+
+.points1 h1{
+    width: 300px;
+    clear: left;         
+    margin-left: 225px;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(36, 30, 26, 0.726);
+    padding-top: 16px;
+    font-weight: 550;
+}
+
+.points1 p{
+    width: 310px  ;
+    color: rgba(12, 12, 12, 0.87);
+    padding-top: 10px;
+    text-align: justify;
+    margin-left: 220px;
+    clear: left;
+    font-size: 12px;
+}
+
+.points1 button{
+    width: 100px;
+    height: 25px;
+    clear: left;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(230, 105, 3);
+    margin-top: 10px;
+    margin-left: 320px;
+}
+
+/* ---------------------------------------------- About Page ---------------------------------------------- */
+
+.about{
+    margin-top: 15px;
+    margin-left: 170px;
+    margin-bottom: 15px;
+}
+
+.head{
+    margin-top: 15px; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    color: rgb(95, 44, 2);
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-weight: 540;
+}
+
+.story{
+    padding-left: 160px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: rgb(22, 22, 22);
+}
+
+/* --------------------------------------------- Contact Page --------------------------------------------- */
+
+.form-box{
+    height: 400px;
+    margin-top: 17px;
+    text-align: center;
+    padding-top: 80px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgba(255, 219, 190, 0.445);
+    box-shadow: 0px 0px 10px 3px rgb(56, 56, 56);
+}
+
+input{
+    width: 440px;
+    height: 28px;
+    border: solid 0.5px rgb(230, 105, 3);
+    background: transparent;
+    padding-left: 8px;
+    outline: none;
+}
+
+textarea{
+    width: 440px;
+    resize: none;
+    border: solid 0.5px rgb(230, 105, 3);
+    background: transparent;
+    padding-left: 8px;
+    padding-top: 3px;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(48, 48, 48);
+    text-align: left;
+    padding-right: 8px;
+}
+
+.form-box .btn{
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color: rgb(230, 105, 3);
+    border-radius: 20px;
+    position: relative;
+    top: 12px;
+    left: 10px;  
+}
+
+.contact-box{
+    padding-top: 20px;
+    padding-left: 15px;
+    height: 400px;
+    margin-top: 17px;
+    text-align: left;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 219, 190, 0.445);
+    box-shadow: 0px 0px 10px 3px rgb(56, 56, 56);
+}
+
+.contact-box h1{
+    font-size: 35px;
+    color: rgb(230, 105, 3);
+}
+
+.contact-box p{
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+h4{
+    font-size: 18px;
+    color: rgb(230, 105, 3);
+    font-weight: 500;
+}
+
+h4 a{
+    color: rgb(230, 105, 3);
+    text-decoration: none;
+}
+
+.close{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 70px;
+}
+
+.cards{
+    background-color: rgb(248, 152, 73);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 2px rgba(68, 68, 68, 0.692);
+    margin-bottom: 15px;
+}
+
+.cards img{
+    position: relative;
+    left: 11px;
+    top: 11px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.cards h3{
+    text-align: center;
+    color: rgb(126, 57, 1);
+}
+
+.cards p{
+    color: #fff;
+    padding: 0px 10px 5px;
+    text-align: justify;
+}
